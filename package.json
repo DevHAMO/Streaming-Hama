@@ -1,0 +1,17 @@
+{
+  "name": "hamaa",
+  "version": "2.1.0",
+  "description": "Streaming ACCOUNT",
+  "main": "hamaa.js",
+  "scripts": {
+    "start": "node hamaa.js"
+  },
+  "dependencies": {
+    "discord.js": "12.5.3",
+    "express": "^4.17.1",
+    "ytdl-core": "^0.29.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
