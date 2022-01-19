@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const Carlo = new Discord.Client();
+const Hamaa = new Discord.Client();
 Hamaa.on("ready", () => {
   console.log(`Online In Servers`);
   let statuses = [`SHTEK BO STREAMING AKA BNUSA`,];
@@ -12,7 +12,7 @@ Hamaa.on("ready", () => {
   }, 2000);
 });
 Hamaa.on("ready", () => {
-    var join = Carlo.channels.get(""); ///id Voice
+    var join = Hamaa.channels.get(""); ///id Voice
     if (join) join.join();
   });
 Hamaa.login(""); ///Token
